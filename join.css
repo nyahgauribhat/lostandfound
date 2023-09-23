@@ -100,172 +100,73 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
     height: 2px;
     width: 100%;
 }
-#mission {
-    font-family: Raleway;
-    margin: 0 auto;
-	padding: 2em 3em 0.5em 1em;
-	text-align: center;
-    background-color:transparent;
-    margin-left: 150px;
-    margin-right: 150px;
-    line-height: 2;
-    font-weight: 600;
-
-}
-#line {
-    width: 500px;
-}
-#whyus 
+#vol
 {
     font-family: Raleway;
-    margin: 0 auto;
-	text-align: center;
-    background-color:transparent;
-    margin-left: 150px;
-    margin-right: 150px;
-    line-height: 2;
-    font-weight: 500;
-    font-size: 25px;
-    
+    font-size: 20px;
+    text-align: center;
 
 }
-#words 
-{
-    color:#A0D8B3;
-
+#vol h2 {
     font-weight: 400;
 }
-#stats {
+#why 
+{
     font-family: Raleway;
-    background-color: #E5F9DB;
-    padding-bottom:1px;
-    
-}
-#wh {
-    display: flex;
+    background-color: #E4E4D0;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
+    line-height: 2;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
-#members{
-
-    font-size: 40px;
-    margin-right: 70px;
-    margin-left: 100px;
-
-}
-#childrenhelped{
-
-    font-size: 40px;
-    margin-right: 70px;
-
-}
-
-#items{
-    font-size: 40px;
-    margin-right: 70px;
-
-}
-#less
+#why h1
 {
-    color: black;
-    font-size: 30px;
-    font-weight: 100;
-}
-#btn 
-{
-    color: black;
-    font-size: 20px;
-    font-weight: 100;
-    margin-top: 20px;
-   
-    
-
-}
-#abus 
-{
-    font-family: Raleway;
-    background-color: #83764F;
-    color: white;
-
-}
-#text 
-{
-    margin-left: 300px;
-    margin-right: 300px;
-    line-height: 1.8;
-    font-weight: 100;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    font-size: 20px;
-
-}
-
-#sls 
-{text-align: center;
-
-}
-#text1
-{
-    text-align: center;
-    margin-top: 20px;
-}
-#btn1 
-{
-    margin-top: 20px;
-}
-#impact 
-{
-    background-color: #765827
-    ;
-    padding-top: 1px;
-    padding-bottom: 1px;
-}
-#it
-{
-    text-align: center;
-    font-family: Raleway;
-    margin-left: 150px;
-    margin-right: 150px;
-    line-height: 1.8;
-    font-size: 20px;
-    color: white;
-    font-weight: 100;
-}
-.custom-btn {
-    width: 800px;
-    height: 150px;
-    color: #black;
-    border-radius: 5px;
-    padding: 10px 25px;
-    font-family: Raleway;
     font-weight: 500;
-    background: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    position: relative;
-    display: inline-block;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-     7px 7px 20px 0px rgba(0,0,0,.1),
-     4px 4px 5px 0px rgba(0,0,0,.1);
-    outline: none;
+
+}
+#why p
+{
+    font-size: 20px;
+}
+#types 
+{
+    display: flex;
+}
+#types
+{
+    font-family: Raleway;
+    line-height: 2;
+    margin-left: 3px;
+    margin-right: 2px;
     text-align: center;
-    font-size: 30px;
-    margin-left: 170px;
-    margin-top: 70px;
+}
+#con
+{
+    background-color:#A2A378
 
-    
-  }
+}
+#dis
+{
+    background-color: #94A684;
+}
+#gs
+{
+    background-color:#AEC3AE;
 
-  /* 5 */
+}
+#qs
+{
+    font-style: italic;
+    padding-bottom: 20px;
+}
 .btn-5 {
-    width: 800px;
-    height: 150px;
+    width: 200px;
+    height: 50px;
     line-height: 42px;
     padding: 0;
     border: none;
     background:#E5F9DB;
+    border-radius: 10px;
   background: linear-gradient(0deg, ##E5F9DB 0%, #E5F9DB, 100%);
   }
   .btn-5:hover {
@@ -299,20 +200,3 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
     width:100%;
     transition:800ms ease all;
   }
-  #gi
-  {
-    width: 100%;
-    height: 300px;
-
-  }
-  #like
-  {
-    font-size: 20px;
-    font-weight: 100;
-  }
-    
-
-
-
-
-
