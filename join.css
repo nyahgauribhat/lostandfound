@@ -131,27 +131,32 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 #types 
 {
     display: flex;
-}
-#types
-{
     font-family: Raleway;
     line-height: 2;
-    margin-left: 3px;
-    margin-right: 2px;
+   
     text-align: center;
 }
 #con
 {
-    background-color:#A2A378
+    background-color:#A2A378;
+
 
 }
 #dis
 {
     background-color: #94A684;
+ 
 }
 #gs
 {
     background-color:#AEC3AE;
+
+    
+}
+#con, #dis, #gs
+{
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 #qs

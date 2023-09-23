@@ -67,7 +67,7 @@ div.container a
 /* Border from Y to X  */
 div.borderYtoX a:before, div.borderYtoX a:after
 {
-    position: absolute;
+    position:absolute;
     opacity: 0.5;
     height: 100%;
     width: 2px;
@@ -213,5 +213,19 @@ input[type=checkbox]:checked + label {
   color: #f00;
   font-style: normal;
 }
+footer 
+{
+    font-family: Raleway;
+    margin: 0 auto;
+	padding: 5em 3em;
+	text-align: center;
+    background:#65451F;
+    ;
+}
+footer span
+{
+  color: #AAA;
+}
+
 
 

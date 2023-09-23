@@ -103,7 +103,8 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 #mission {
     font-family: Raleway;
     margin: 0 auto;
-	padding: 2em 3em 0.5em 1em;
+	padding: 2em 3em 0em 1em; 
+/* top right bottom left  */
 	text-align: center;
     background-color:transparent;
     margin-left: 150px;
@@ -114,6 +115,7 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 }
 #line {
     width: 500px;
+    height: 20px;
 }
 #whyus 
 {
@@ -176,9 +178,9 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 #btn 
 {
     color: black;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 100;
-    margin-top: 20px;
+    padding-top: 20px;
    
     
 
@@ -209,11 +211,7 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
 #text1
 {
     text-align: center;
-    margin-top: 20px;
-}
-#btn1 
-{
-    margin-top: 20px;
+
 }
 #impact 
 {
