@@ -4,6 +4,7 @@
 <head>
   <title>home page</title>
   <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -37,6 +38,14 @@
       students, tutors, and NGO’s to participate in this responsible resource management cycle, we hope to <span
         id="words"> strengthen community </span> and <span id="words"> environmental consciousness. </span>
     </p>
+<div>
+  <video playsinline autoplay muted loop>
+    <source src="recycle.mp4" type="video/mp4">
+</video>
+<div class="overlay">
+ <h2>Come join us given an item a second life.</h2>
+</div>
+</div>
   </div>
   <div id="stats">
     <div id="text1">
@@ -45,16 +54,19 @@
         </h1>
       <div id="wh">
         <div id="members">
-          X <br> Hundred <br> <span id="less"> Community Members</span>
+
+         <div class = "value"nyah = "1000"> </div>
+          
+          <br> Hundred <br> <span id="less"> Community Members</span>
 
 
         </div>
         <div id="items">
-          X <br> Thousand <br> <span id="less"> Items distributed </span>
+          <div class = "value"nyah = "10000"> </div><br> Thousand <br> <span id="less"> Items distributed </span>
 
         </div>
         <div id="childrenhelped">
-          X <br> Hundred <br> <span id="less"> Children Helped</span>
+          <div class = "value"nyah = "150"> </div> <br> Hundred <br> <span id="less"> Children Helped</span>
 
         </div>
       </div>
@@ -62,7 +74,8 @@
   </div>
   <div id="abus">
     <div id="text">
-      <h1 id="sls"> SecondLife Solutions 101 </h1>
+      <div data-aos="fade-down"data-aos-delay ="500"><h1 id="sls"> SecondLife Solutions 101 </h1></div>
+      
       <p> <b> In a nutshell:</b> <br>
 
         We serve as the bridge that connects schools, NGOs, students, and tutors. Through our platform, we enable the
@@ -88,7 +101,8 @@
   </div>
   <div id="impact">
     <div id="it">
-      <h1> Our Impact</h1>
+      
+<div data-aos="flip-left" data-aos-delay ="500"><h1> Our Impact</h1></div>
       <p>
 
         By preventing usable items from ending up in landfills, we are taking a significant step towards protecting our
@@ -106,6 +120,12 @@
   <footer>
     <span>SecondLife Solutions (C) All rights Reserved</span>
   </footer>
+  <script src = "script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+  </script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
