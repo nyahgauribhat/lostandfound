@@ -110,6 +110,8 @@ div.borderYtoX a:hover:after {
 #line {
     width: 500px;
     height: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #whyus {
@@ -539,10 +541,7 @@ video {
 
 
 }
-#line {
-    width: 500px;
-    height: 20px;
-}
+
 #as
 {
     font-family: Raleway;
