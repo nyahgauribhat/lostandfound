@@ -17,13 +17,86 @@ header {
     background-color: transparent;
 }
 
-footer {
-    font-family: Raleway;
-    margin: 0 auto;
-    padding: 5em 3em;
-    text-align: center;
-    background: #65451F;
-    ;
+.site-footer
+{
+  background-color:#413117
+  ;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:white;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:white;
+}
+.site-footer a:hover
+{
+  color:#A0D8B3;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:white
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#A0D8B3;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+
+.copyright-text
+{
+  
+  text-align: center;
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
 }
 
 header h1 {
@@ -130,6 +203,7 @@ div.borderYtoX a:hover:after {
 
 #words {
     color: #A0D8B3;
+    text-align:center;
 
     font-weight: 400;
 }
@@ -138,6 +212,7 @@ div.borderYtoX a:hover:after {
     font-family: Raleway;
     background-color: #E5F9DB;
     padding-bottom: 1px;
+    text-align:center;
 
 }
 
@@ -150,26 +225,14 @@ div.borderYtoX a:hover:after {
 
 
 }
-
-#members {
-
+#wh div
+{
     font-size: 40px;
     margin-right: 70px;
+
+}
+#wh div:nth-child(1) {
     margin-left: 100px;
-
-}
-
-#childrenhelped {
-
-    font-size: 40px;
-    margin-right: 70px;
-
-}
-
-#items {
-    font-size: 40px;
-    margin-right: 70px;
-
 }
 
 #less {
@@ -183,39 +246,24 @@ div.borderYtoX a:hover:after {
     font-size: 40px;
     font-weight: 100;
     padding-top: 20px;
-    margin: auto;
-
-
-
 }
 
 #abus {
     font-family: Raleway;
     background-color: #83764F;
     color: white;
-
-}
-
-#text {
     margin-left: 300px;
     margin-right: 300px;
     line-height: 1.8;
     font-weight: 100;
     padding-top: 1px;
     padding-bottom: 1px;
-    font-size: 20px;
-
-}
+    font-size: 20px}
 
 #sls {
     text-align: center;
-
 }
 
-#text1 {
-    text-align: center;
-
-}
 
 #impact {
     background-color: #765827;
@@ -525,6 +573,7 @@ video {
         flex-direction:column;
   }
 }
+
 /* /////join ending////*/
 
 /* ////about us starting////*/
@@ -547,24 +596,24 @@ video {
 #as
 {
     font-family: Raleway;
-    margin: 0 auto;
-	text-align: center;
     background-color:transparent;
-    margin-left: 150px;
-    margin-right: 150px;
     line-height: 2;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 12px;
+    width: 800px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
     
 
 }
-#words
+.words
 {
     color: #A0D8B3;
 }
 :root {
-    --primary: #227093;
-    --secondary: #ff5252;
+    --primary: #A2A378;
+    --secondary: #e4b2c3;
     --background: #eee;
     --highlight: #ffda79;
     /* Theme color */
@@ -638,6 +687,17 @@ video {
         margin-left:10px;
         margin-right:10px;
         font-size: 20px;} }
+
+    #split 
+    {
+        display:flex;
+
+    }
+    #image1 {
+        height: 100px;
+        width: 50px;
+    }
+    #
         /* ///////about us ending/////// */
 
         /*///////contact us starting///////*/
@@ -645,13 +705,13 @@ video {
             font-family: Raleway;
             font-weight: 400;
             font-size: 20px;
-            color: #9b9b9b;
+            color: white;
             line-height: 1.5;
         }
         
         input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
             font-size: 0.75em;
-            color: #999;
+            color: white;
             top: -5px;
             -webkit-transition: all 0.225s ease;
             transition: all 0.225s ease;
@@ -749,12 +809,12 @@ video {
         }
         
         input[type=checkbox] + label {
-          color: #ccc;
+          color: white;
           font-style: italic;
         } 
         
         input[type=checkbox]:checked + label {
-          color: #f00;
+          color: #FFEEF4;
           font-style: normal;
         }
         footer 
