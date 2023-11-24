@@ -17,87 +17,7 @@ header {
     background-color: transparent;
 }
 
-.site-footer
-{
-  background-color:#413117
-  ;
-  padding:45px 0 20px;
-  font-size:15px;
-  line-height:24px;
-  color:white;
-}
-.site-footer hr
-{
-  border-top-color:#bbb;
-  opacity:0.5
-}
-.site-footer hr.small
-{
-  margin:20px 0
-}
-.site-footer h6
-{
-  color:#fff;
-  font-size:16px;
-  text-transform:uppercase;
-  margin-top:5px;
-  letter-spacing:2px
-}
-.site-footer a
-{
-  color:white;
-}
-.site-footer a:hover
-{
-  color:#A0D8B3;
-  text-decoration:none;
-}
-.footer-links
-{
-  padding-left:0;
-  list-style:none
-}
-.footer-links li
-{
-  display:block
-}
-.footer-links a
-{
-  color:white
-}
-.footer-links a:active,.footer-links a:focus,.footer-links a:hover
-{
-  color:#A0D8B3;
-  text-decoration:none;
-}
-.footer-links.inline li
-{
-  display:inline-block
-}
 
-.copyright-text
-{
-  
-  text-align: center;
-}
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px
-  }
-}
-@media (max-width:767px)
-{
-  .site-footer
-  {
-    padding-bottom:0
-  }
-  .site-footer .copyright-text,.site-footer .social-icons
-  {
-    text-align:center
-  }
-}
 
 header h1 {
     color: #AAA;
@@ -114,7 +34,7 @@ footer span {
     color: #AAA;
 }
 
-div.container {
+.container {
     font-family: Raleway;
     margin: 0 auto;
     padding: 2em 0em;
@@ -122,10 +42,10 @@ div.container {
     font-size: 12px;
 }
 
-div.container a {
+.container a {
     color: black;
     text-decoration: none;
-    font: 20px Raleway;
+    font: 15px Raleway;
     margin: 0px 10px;
     padding: 10px 10px;
     position: relative;
@@ -168,51 +88,64 @@ div.borderYtoX a:hover:after {
 
 #mission {
     font-family: Raleway;
-    margin: 0 auto;
-    padding: 2em 3em 0em 1em;
     /* top right bottom left  */
-    text-align: center;
-    background-color: transparent;
-    margin-left: 150px;
-    margin-right: 150px;
     line-height: 2;
-    font-weight: 600;
+    font-weight: 400;
 
+ color: white;
+ font-size: 30px;
+ margin-bottom: -30px;
+      
 }
-
-#line {
-    width: 500px;
-    height: 20px;
-    margin-left: auto;
-    margin-right: auto;
+#butterfly
+{
+    opacity: 0.7;
 }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 #whyus {
     font-family: Raleway;
     margin: 0 auto;
     text-align: center;
-    background-color: transparent;
-    margin-left: 150px;
-    margin-right: 150px;
+    background-color: #d3fef1 ;
+   color: black;
     line-height: 2;
     font-weight: 500;
     font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 
 
 }
+#entire 
+{
+    display: flex;
 
-#words {
-    color: #A0D8B3;
-    text-align:center;
-
-    font-weight: 400;
 }
+#image
+{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
 
 #stats {
     font-family: Raleway;
-    background-color: #E5F9DB;
+    background-color:#90b717 ;
     padding-bottom: 1px;
     text-align:center;
+    color: white;
+    margin-left: 30px;
+    margin-right: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 850px;
 
 }
 
@@ -221,13 +154,14 @@ div.borderYtoX a:hover:after {
     margin-top: 20px;
     margin-bottom: 20px;
     justify-content: center;
+    color: black;
 
 
 
 }
 #wh div
 {
-    font-size: 40px;
+    font-size: 30px;
     margin-right: 70px;
 
 }
@@ -250,25 +184,69 @@ div.borderYtoX a:hover:after {
 
 #abus {
     font-family: Raleway;
-    background-color: #83764F;
+    background-color: #315101;
     color: white;
-    margin-left: 300px;
-    margin-right: 300px;
     line-height: 1.8;
     font-weight: 100;
-    padding-top: 1px;
+    padding-top: 10px;
     padding-bottom: 1px;
-    font-size: 20px}
+    font-size: 20px;
+    padding-left: 100px;
+    padding-right: 100px;}
 
+#forflex {
+    display: flex;}
+
+    #ns{
+        flex: 1.5;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+        background-color: #4aaf74 ;
+        margin-bottom: 20px;
+    }
+    #og{
+        flex: 2;
+        background-color: #67eaa9 ;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+   
 #sls {
     text-align: center;
 }
-
-
 #impact {
-    background-color: #765827;
-    padding-top: 1px;
+    background-color: #644e39 ;
+    padding-top: 10px;
     padding-bottom: 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #dcd9d8;
+
+
+}
+
+#entireimpact {
+    display:flex;
+}
+#image2
+{
+    margin-top: 200px;
+    margin-left: -200px;
+    margin-right: 50px;
+
+}
+#i12 {
+   border: 5px solid #644e39;
 }
 
 #it {
@@ -287,13 +265,12 @@ div.borderYtoX a:hover:after {
     height: 150px;
     color: black;
     border-radius: 5px;
-    padding: 10px 25px;
+    
     font-family: Raleway;
     font-weight: 500;
     background: transparent;
     cursor: pointer;
     transition: all 0.3s ease;
-    position: relative;
     display: inline-block;
     box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
         7px 7px 20px 0px rgba(0, 0, 0, .1),
@@ -301,10 +278,9 @@ div.borderYtoX a:hover:after {
     outline: none;
     text-align: center;
     font-size: 30px;
-    margin-left: 170px;
-    margin-top: 70px;
-
-
+  position: relative;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 /* 5 */
@@ -314,7 +290,7 @@ div.borderYtoX a:hover:after {
     line-height: 42px;
     padding: 0;
     border: none;
-    background: #E5F9DB;
+    background: #fbbf10;
     background: linear-gradient(0deg, #E5F9DB 0%, #E5F9DB, 100%);
 }
 
@@ -439,7 +415,7 @@ video {
 
                 @media screen and (max-width: 728px) {
                     .btn-5 {
-                        width: 200px;
+                        width: 200px;x
                         height: 60px;
                         line-height: 4px;
                         margin-left: 90px;
@@ -474,7 +450,7 @@ video {
 #why 
 {
     font-family: Raleway;
-    background-color: #E4E4D0;
+ 
     text-align: center;
     line-height: 2;
     padding-bottom: 20px;
@@ -497,20 +473,27 @@ video {
    
     text-align: center;
 }
+#imagearray
+{
+    display: flex;
+}
 #con
 {
-    background-color:#A2A378;
+    background-color:#27d1a8;
+    padding-top: 20px;
 
 
 }
 #dis
 {
-    background-color: #94A684;
+    background-color: #4aaf74 ;
+    padding-top: 20px;
  
 }
 #gs
 {
-    background-color:#AEC3AE;
+    background-color:#67eaa9;
+    padding-top: 20px;
 
     
 }
@@ -531,14 +514,14 @@ video {
     line-height: 42px;
     padding: 0;
     border: none;
-    background:#E5F9DB;
+    background: white;
     border-radius: 10px;
   background: linear-gradient(0deg, #E5F9DB 0%, #E5F9DB, 100%);
   font-size: 12px;
   margin: auto;
   }
   .btn-6:hover {
-    color:#E5F9DB;
+    color:white;
     background: transparent;
      box-shadow:none;
   }
@@ -550,7 +533,7 @@ video {
     right:0;
     height:2px;
     width:0;
-    background: #E5F9DB;
+    background: white;
     box-shadow:
      -1px -1px 5px 0px #fff,
      7px 7px 20px 0px #0003,
@@ -565,6 +548,50 @@ video {
   }
   .btn-6:hover:before,
   .btn-6:hover:after{
+    width:100%;
+    transition:800ms ease all; 
+  }
+
+  .btn-primary {
+    width: 200px;
+    height: 50px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background:white;
+    border-radius: 10px;
+  background: linear-gradient(0deg, #E5F9DB 0%, #E5F9DB, 100%);
+  font-size: 12px;
+  margin: auto;
+  }
+  .btn-primary:hover {
+    color:#E5F9DB;
+    background: transparent;
+     box-shadow:none;
+  }
+  .btn-primary:before,
+  .btn-primary:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #E5F9DB;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  .btn-primary:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn-primary:hover:before,
+  .btn-primary:hover:after{
     width:100%;
     transition:800ms ease all; 
   }
@@ -588,23 +615,21 @@ video {
     margin-right: 150px;
     line-height: 2;
     font-weight: 600;
-    color:#83764F
+    color:#67eaa9;
 
 
 }
 
-#as
-{
-    font-family: Raleway;
+#split
+{ font-family: Raleway;
     background-color:transparent;
     line-height: 2;
     font-weight: 500;
     font-size: 12px;
-    width: 800px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
     text-align: center;
-    
+    font-size: 20px;
 
 }
 .words
@@ -612,7 +637,7 @@ video {
     color: #A0D8B3;
 }
 :root {
-    --primary: #A2A378;
+    --primary: #4aaf74 ;
     --secondary: #e4b2c3;
     --background: #eee;
     --highlight: #ffda79;
@@ -688,16 +713,88 @@ video {
         margin-right:10px;
         font-size: 20px;} }
 
-    #split 
-    {
-        display:flex;
-
-    }
     #image1 {
         height: 100px;
         width: 50px;
     }
-    #
+    * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
         /* ///////about us ending/////// */
 
         /*///////contact us starting///////*/
@@ -712,7 +809,7 @@ video {
         input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
             font-size: 0.75em;
             color: white;
-            top: -5px;
+            top: 5px;
             -webkit-transition: all 0.225s ease;
             transition: all 0.225s ease;
         }
@@ -720,7 +817,7 @@ video {
         .styled-input {
             /* float: left; */
             width: 293px;
-            margin: 1rem 0;
+            margin: 1rem 1rem 1rem 1rem;
             position: relative;
             border-radius: 4px;
         }
@@ -740,10 +837,11 @@ video {
             -webkit-transition: all 0.25s ease;
             transition: all 0.25s ease;
             pointer-events: none;
+        
         }
         
         .styled-input.wide { 
-            width: 650px;
+            width: 400px;
             max-width: 100%;
         }
         
@@ -751,11 +849,13 @@ video {
         textarea {
             padding: 30px;
             border: 0;
-            width: 100%;
+            width: 400px;
             font-size: 1rem;
-            background-color: #AEC3AE;
+            background-color: #27d1a8 ;
             color: black;
             border-radius: 4px;
+            margin-bottom: 30px;
+
         }
         
         input:focus,
@@ -763,20 +863,21 @@ video {
         
         input:focus ~ span,
         textarea:focus ~ span {
-            width: 100%;
+            width: 400px;
             -webkit-transition: all 0.075s ease;
             transition: all 0.075s ease;
         }
         
         textarea {
-            width: 100%;
+            width: 400px;
             min-height: 15em;
         }
         
         .input-container {
-            width: 650px;
-            max-width: 100%;
-            margin: 20px auto 25px auto;
+            width: 400px;
+            margin: 20px 20px 25px 20px;
+            margin: auto;
+            display: inline-block;
         }
         
         .submit-btn {
@@ -832,9 +933,9 @@ video {
         }
         #form 
         {
-            width: 630px;
+            width: 400px;
             margin: auto;
-        
+    
         }
         @media screen and (min-width: 728px) {
             #form {
@@ -853,3 +954,381 @@ video {
         
         }
         /*////contact us ending///////*/ 
+        /* donate starting*/
+        .donation-container {
+            height: 1500px;
+            font-family: 'Raleway';
+            font-weight: 500;
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-top: 30px;
+        }
+        
+        .donation-box {
+            width: 800px;
+            height: 450px;
+            background-color: #F5F5F5;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            
+            -webkit-transition: all 0.15s ease-out;
+            -moz-transition: all 0.15s ease-out;
+            -o-transition: all 0.15s ease-out;
+            transition: all 0.15s ease-out;
+        }
+        
+        .donation-box .title {
+            background-color: #4aaf74;
+            width: 100%;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            color: white;
+            text-align: center;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            font-size: 15px;
+        }
+        
+        .donation-box .donate-button {
+            background-color: #4aaf74 ;
+            width: 100%;
+            color: white;
+            text-align: center;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            font-size: 18px;
+            bottom: 0px;
+            position: absolute;
+            cursor: pointer;
+            font-weight: 800;
+        }
+        
+        .donation-box .fields {
+            width: 59%;
+            display: block;
+            position: absolute;
+            top: 60px;
+            left: 15px;
+        }
+        
+        .donation-box .fields input {
+            width: 90%;
+            font-size: 17px;
+            padding: 10px;
+            border-radius: 4px;
+            border-width: 0px;
+            color: #644e39;
+            font-family: 'Raleway';
+            font-weight: 500;
+            margin-bottom: 10px;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        ::-webkit-input-placeholder {
+           color: black;
+           font-size: 15px;
+        }
+        
+        :-moz-placeholder { /* Firefox 18- */
+           color: white;
+           font-size: 15px;
+        }
+        
+        ::-moz-placeholder {  /* Firefox 19+ */
+           color: #cdcdcd;
+           font-size: 15px; 
+        }
+        
+        :-ms-input-placeholder {  
+           color: #cdcdcd;
+           font-size: 15px;
+        }
+        
+        .donation-box .amount {
+            width: 30%;
+            display: block;
+            position: absolute;
+            top: 60px;
+            right: 15px;
+        }
+        
+        .donation-box .amount .button {
+            width: 100%;
+            background-color: gray;
+            margin-bottom: 10px;
+            text-align: center;
+            color: white;
+            padding: 15px 0px 15px 0px;
+            border-radius: 4px;
+            font-size: 20px;
+            cursor: pointer;
+            
+            -webkit-transition: 400ms background-color;
+            -moz-transition: 800ms opacity, 800ms right;
+            -ms-transition: 800ms opacity, 800ms right;
+            -o-transition: 800ms opacity, 800ms right;
+            transition: 200ms background-color;
+        }
+        
+        .donation-box .amount .button:hover {
+            background-color: #393939;
+        }
+        
+        .donation-box .amount .button.selected {
+            background-color: #393939;
+        }
+        
+        .donation-box .amount .button input {
+            min-width: 34px;
+            font-size: 20px;
+            font-weight: 500;
+            border: none;
+            background-color: transparent;
+            color: white;
+            font-family: 'Raleway';
+            font-size: 20px;
+            font-stretch: normal;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: 500;
+            border-bottom: 2px dashed white;
+            -webkit-font-smoothing: antialiased;
+            
+            -webkit-transition: all 0.15s ease-out;
+            -moz-transition: all 0.15s ease-out;
+            -o-transition: all 0.15s ease-out;
+            transition: all 0.15s ease-out;
+        }
+        
+        .set-amount {
+            max-width: 96px;
+        }
+        
+        .switch {
+          position: absolute;
+          top: 190px;
+          left: 15px;
+          margin: 20px auto;
+          height: 26px;
+          width: 58.5%;
+          background: #4aaf74;
+          border-radius: 3px;
+        }
+        
+        .switch-label {
+          position: relative;
+          z-index: 2;
+          float: left;
+          width: 49%;
+          line-height: 26px;
+          font-size: 11px;
+          color: #5C5C5C;
+          text-align: center;
+          cursor: pointer;
+          font-weight: bold;
+        }
+        .switch-label:active {
+          font-weight: bold;
+        }
+        
+        .switch-label-off {
+          padding-left: 2px;
+        }
+        
+        .switch-label-on {
+          padding-right: 2px;
+        }
+        
+        .switch-input {
+          display: none;
+        }
+        .switch-input:checked + .switch-label {
+          font-weight: bold;
+          color: rgba(0, 0, 0, 0.65);
+          
+          -webkit-transition: 0.15s ease-out;
+          -moz-transition: 0.15s ease-out;
+          -o-transition: 0.15s ease-out;
+          transition: 0.15s ease-out;
+        }
+        .switch-input:checked + .switch-label-on ~ .switch-selection {
+          left: 114px;
+        }
+        
+        .switch-selection {
+          display: block;
+          position: absolute;
+          z-index: 1;
+          top: 2px;
+          left: 2px;
+          width: 50%;
+          height: 22px;
+          background: #65bd63;
+          border-radius: 3px;
+          background-color: #d3fef1;
+          
+          -webkit-transition: left 0.15s ease-out;
+          -moz-transition: left 0.15s ease-out;
+          -o-transition: left 0.15s ease-out;
+          transition: left 0.15s ease-out;
+        }
+        
+        .checkboxes {
+            position: absolute;
+            top: 242px;
+            left: 13px;
+        }
+        
+        .checkboxes label {
+            position: relative;
+            top: -8px;
+            font-size: 13px;
+            color: gray;
+        }
+        
+        .checkbox {
+            -webkit-appearance: none;
+            background-color: #fafafa;
+            border: 1px solid #27d1a8;
+            padding: 9px;
+            border-radius: 3px;
+            display: inline-block;
+            position: relative;
+            
+            -webkit-transition: all 0.15s ease-out;
+            -moz-transition: all 0.15s ease-out;
+            -o-transition: all 0.15s ease-out;
+            transition: all 0.15s ease-out;
+        }
+        
+        .checkbox:active, .checkbox:checked:active {
+            
+        }
+        
+        .checkbox:checked {
+            background-color:#27d1a8;
+            border: 1px solid #27d1a8;
+            color: white;
+        }
+        
+        .checkbox:checked:after {
+            content: '\2714';
+            font-size: 14px;
+            position: absolute;
+            top: 0px;
+            left: 3px;
+            background-color: #27d1a8;
+        }
+        
+        .confirm {
+            display: none;
+            position: absolute;
+            top: 335px;
+            left: 15px;
+            right: 15px;
+            font-size: 16px;
+            
+            -webkit-transition: all 0.15s ease-out;
+            -moz-transition: all 0.15s ease-out;
+            -o-transition: all 0.15s ease-out;
+            transition: all 0.15s ease-out;
+        }
+        
+        .confirm i {
+            font-weight: bold;
+            text-decoration: underline;
+            font-style: normal;
+        }
+        #receipt, #anon, #list {
+            color: black;
+        }
+        #we {
+            font-family: 'Raleway';
+            text-align: center;
+        }
+        .site-footer
+{
+  background-color:#5d8ea5
+  ;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:white;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:white;
+}
+.site-footer a:hover
+{
+  color:#A0D8B3;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links li a
+{
+  color:white;
+  font-size: 15px;
+
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#27d1a8 ;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+
+.copyright-text
+{
+  
+  text-align: center;
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
