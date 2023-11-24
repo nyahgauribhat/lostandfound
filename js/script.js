@@ -1,7 +1,7 @@
-const counters = document.querySelectorAll('.value');
+const counters1 = document.querySelectorAll('.value');
 const speed = 400;
 
-counters.forEach( counter => {
+counters1.forEach( counter => {
    const animate = () => {
       const value = +counter.getAttribute('nyah');
       const data = +counter.innerText;
