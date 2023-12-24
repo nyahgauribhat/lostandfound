@@ -6,7 +6,7 @@
 /* /////home page starting////// */
 html,
 body {
-    margin: 0px;
+    margin: 0px;+[]
 }
 
 header {
@@ -91,45 +91,103 @@ div.borderYtoX a:hover:after {
     /* top right bottom left  */
     line-height: 2;
     font-weight: 400;
-
     color: white;
-    font-size: 30px;
     margin-bottom: -30px;
 }
-
-#butterfly {
-    opacity: 0.7;
+#butterfly
+{
+    filter: brightness(70%)
 }
-
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 20px;
-    color: black;
-    padding-top: 100px;
-    font-weight: 600px;
+    color: white;
+    padding-top: 400px;
+    font-weight: 400px;
+}
+#one 
+{
+    padding-left: 60px;
 }
 
 #whyus {
     font-family: Raleway;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #d3fef1;
+    /* margin: 0 auto; */
     color: black;
-    line-height: 2;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 18px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 30px;
+    padding-top: 20px;
+    margin-top: 20px;
 }
+.whyuscont{
+display: flex;
+position: relative;
+color: black;;
+}
+.each {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    position: relative;
+  /* text-align: center; */
+  color:black;
+}
+.text101
+{
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+#s1011
+{
+    width: 300px;
+
+}
+#s1012
+{
+    width: 300px;
+
+}
+#s1013
+{
+    width: 300px;
+
+}
+#s1014
+{
+    width: 300px;
+
+}
+
+  
+#one
+{
+    padding-left: 30px;
+}
+
 
 #entire {
     display: flex;
+   background-color: #d3fef0
 
 }
+#sls101
+{ padding-left: 60px;
+}
+#tr
+{padding-left: 60px;
+font-size: 25px;
+font-weight: 600px;}
 
 #image {
     margin-top: 50px;
@@ -253,6 +311,8 @@ div.borderYtoX a:hover:after {
     margin-right: 50px;
 
 }
+#butterfly
+{opacity: 0.9;}
 
 #i12 {
     border: 5px solid #644e39;
@@ -410,6 +470,8 @@ video {
             margin-left: 10px;
             margin-right: 10px;
             line-height: 1.2;
+            font-size: 50px;
+    
         }
     }
 
@@ -992,11 +1054,15 @@ input[type=checkbox]+label {
     font-style: italic;
 }
 
-input[type=checkbox]:checked+label {
+/* input[type=checkbox]:checked+label {
     color: #FFEEF4;
     font-style: normal;
-}
+} */
 
+.entirec
+{
+    margin: 0 auto;
+}
 footer {
     font-family: Raleway;
     margin: 0 auto;
@@ -1045,6 +1111,9 @@ footer span {
     font-size: 12px;
     text-transform: uppercase;
     margin-top: 30px;
+}
+.checkboxes p {
+    margin-top: -4px;
 }
 
 .donation-box {
@@ -1218,14 +1287,19 @@ footer span {
 
 .switch-label:active {
     font-weight: bold;
+    margin-top: -3px;
 }
 
 .switch-label-off {
     padding-left: 2px;
+    padding-bottom: 2px;
+    margin-top: -3px;
 }
 
 .switch-label-on {
     padding-right: 2px;
+    padding-bottom: 2px;
+    margin-top: -3px;
 }
 
 .switch-input {
