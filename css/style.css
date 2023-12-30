@@ -132,7 +132,7 @@ color: black;;
 .each {
     padding-left: 30px;
     padding-top: 10px;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
     position: relative;
   /* text-align: center; */
   color:black;
@@ -145,6 +145,11 @@ color: black;;
     left: 50%;
     transform: translate(-50%, -50%);
     
+}
+#sentence
+{
+    text-align: center;
+    padding-left: 60px;
 }
 
 
@@ -169,22 +174,24 @@ color: black;;
 
 }
 
-  
-#one
-{
-    padding-left: 30px;
+#largerthanentire {
+    background-color: #d3fef0;
+    font-family: Raleway;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding-top: 30px;
 }
-
 
 #entire {
     display: flex;
-   background-color: #d3fef0
+   background-color: #d3fef0;
+   padding-left: 100px;
 
 }
 #sls101
 { padding-left: 60px;
 }
-#tr
+.tr
 {padding-left: 60px;
 font-size: 25px;
 font-weight: 600px;}
@@ -193,6 +200,10 @@ font-weight: 600px;}
     margin-top: 50px;
     margin-left: 50px;
 }
+#bridge
+{
+    margin-left: 425px;
+}
 
 
 #stats {
@@ -200,7 +211,6 @@ font-weight: 600px;}
     background-color: #90b717;
     padding-bottom: 1px;
     text-align: center;
-    color: white;
     margin-left: 30px;
     margin-right: 200px;
     margin-top: 50px;
@@ -255,6 +265,7 @@ font-weight: 600px;}
     font-size: 20px;
     padding-left: 100px;
     padding-right: 100px;
+    margin-top: 70px;
 }
 
 #forflex {
@@ -457,6 +468,13 @@ video {
     padding: 5px 15px;
     text-align: center;
     margin-top: -600px;
+}
+#row1
+{
+    display:flex;
+}
+#row2{
+    display:flex;
 }
 
 @media screen and (max-width: 728px) {
@@ -1615,3 +1633,114 @@ ul {
    display: block;
 margin-bottom: 20px;
 }
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card{
+     background-color:transparent;
+     width: 400px;
+     height:400px;
+     border:1px solid #f1f1f1;
+     margin-left: 70px;
+     margin-top: 70px;
+    
+     perspective:1000px;/* Remove this if you don't want the 3D effect */
+    }
+    
+    /* This container is needed to position the front and back side */
+    .flip-card-inner{
+     position:relative;
+     width:100%;
+     height:100%;
+     text-align:center;
+     transition:transform 0.8s;
+     transform-style:preserve-3d;
+    }
+    
+    /* Do an horizontal flip when you move the mouse over the flip box container */
+    .flip-card:hover .flip-card-inner{
+     transform:rotateY(180deg);
+    }
+    
+    /* Position the front and back side */
+    .flip-card-front, .flip-card-back{
+     position:absolute;
+     width:100%;
+     height:100%;
+     -webkit-backface-visibility:hidden;/* Safari */
+     backface-visibility:hidden;
+    }
+    
+    /* Style the front side (fallback if image is missing) */
+    .flip-card-front{
+     background-color:#bbb;
+     color:black;
+     font-family: Raleway;
+     font-size: 25px;
+    }
+    
+    /* Style the back side */
+    .flip-card-back{
+     background-color:dodgerblue;
+     color:white;
+     transform:rotateY(180deg);
+     font-family: Raleway;
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 100px;
+     
+    
+    }
+    #back1
+    {
+
+    background-color: #4aaf74;
+    }
+
+    
+#back2
+{
+    padding-top: 50px;
+    background-color: #27d1a8;
+}
+#back3
+{
+    background-color: #67eaa9;
+}
+#back4
+{
+
+background-color: #347f53;
+}
+
+#back5
+{
+padding-top: 120px;
+background-color: #80d0bd;
+}
+#back6
+{
+background-color: #63ac88;
+}
+.titles
+{
+    font-size: 32px;
+    font-weight: 600px;
+    position: relative;
+    margin-top: -250px;
+
+}
+#value 
+{
+    font-family: Raleway;
+    padding-left: 60px;
+    margin-top: 30px;
+}
+#valh
+{
+    font-size: 25px;
+}
+#cardimages
+{width: 100%;
+    opacity: 0.5;
+
+}
+    
