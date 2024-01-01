@@ -105,7 +105,7 @@ div.borderYtoX a:hover:after {
     transform: translate(-50%, -50%);
     font-size: 20px;
     color: white;
-    padding-top: 400px;
+    margin-top: 400px;
     font-weight: 400px;
 }
 #one 
@@ -126,17 +126,18 @@ div.borderYtoX a:hover:after {
 }
 .whyuscont{
 display: flex;
-position: relative;
-color: black;;
+justify-content: space-around;
+margin: 0 45px;
 }
 .each {
-    padding-left: 30px;
     padding-top: 10px;
     padding-bottom: 30px;
-    position: relative;
-  /* text-align: center; */
-  color:black;
+    width: 300px;
+
 }
+.each img 
+{height: 300px;}
+
 .text101
 {
     width: 300px;
@@ -151,29 +152,6 @@ color: black;;
     text-align: center;
     padding-left: 60px;
 }
-
-
-#s1011
-{
-    width: 300px;
-
-}
-#s1012
-{
-    width: 300px;
-
-}
-#s1013
-{
-    width: 300px;
-
-}
-#s1014
-{
-    width: 300px;
-
-}
-
 #largerthanentire {
     background-color: #d3fef0;
     font-family: Raleway;
@@ -190,11 +168,15 @@ color: black;;
 }
 #sls101
 { padding-left: 60px;
+    margin-top: 60px;
+    margin-bottom: 45px;
 }
 .tr
 {padding-left: 60px;
 font-size: 25px;
-font-weight: 600px;}
+font-weight: 600;
+margin-bottom: 30px;
+font-family: Raleway;}
 
 #image {
     margin-top: 50px;
@@ -574,12 +556,16 @@ video {
     display: flex;
     font-family: Raleway;
     line-height: 2;
-
-    text-align: center;
+    justify-content: space-between;
+}
+#bridgejoin
+{margin-left: 20px;
+    margin-right: 20px;
 }
 
 #imagearray {
     display: flex;
+    justify-content: space-between;
 }
 
 #con {
@@ -1084,7 +1070,7 @@ input[type=checkbox]+label {
 footer {
     font-family: Raleway;
     margin: 0 auto;
-    padding: 5em 3em;
+    padding: 0.5em 3em;
     text-align: center;
     background: #65451F;
     ;
@@ -1600,7 +1586,6 @@ ul {
 
 .copyright-area {
     background: #8c8888;
-    padding: 25px 0;
 }
 
 .copyright-text p {
@@ -1725,10 +1710,9 @@ background-color: #63ac88;
 }
 .titles
 {
-    font-size: 32px;
-    font-weight: 600px;
+    font-size: 20px;
     position: relative;
-    margin-top: -50px;
+    margin-top: -40px;
 
 }
 #value 
